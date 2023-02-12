@@ -17,7 +17,7 @@ print("Please enter the radius in (cm): ")
 var userRad = Double(readLine()!)!
 
 // Check user input and do the following.
-if (userRad >= 0) {
+if userRad >= 0 {
     // Calculate the volume of sphere
     let sphereVol = Double.pi * pow(userRad, 3.0)
     let finalVolSphere = sphereVol * ( 4.0 / 3.0)
@@ -28,8 +28,7 @@ if (userRad >= 0) {
     // Display results to user
     print("The volume of the sphere with given radius of \(userRad),")
     print("is:", placeMultiplier, "cm^3") 
-}
-else {
+} else {
     // executes whenever negative number input. 
     print("Please enter a positive number.")
 }
