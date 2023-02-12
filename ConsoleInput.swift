@@ -27,9 +27,8 @@ if userRad >= 0 {
 
     // Display results to user
     print("The volume of the sphere with given radius of \(userRad),")
-    print("is:", placeMultiplier, "cm^3") 
-}
-else {
+    print("is:", placeMultiplier, "cm^3")
+}else {
     // executes whenever negative number input. 
     print("Please enter a positive number.")
 }
